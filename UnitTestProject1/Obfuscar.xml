@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Obfuscator>
+  <Var name="InPath" value="bin\ReleaseObfuscar" />
+  <Var name="OutPath" value="$(InPath)\obfuscated" />
+  <Var name="HidePrivateApi" value="true" />
+  <Var name="KeepPublicApi" value="false" />
+  <Var name="ReuseNames" value="false" />
+  <Var name="XmlMapping" value="true" />
+  <Var name="RegenerateDebugInfo" value="true" />
+  <Module file="$(InPath)\UnitTestProject1.dll" />
+</Obfuscator>
